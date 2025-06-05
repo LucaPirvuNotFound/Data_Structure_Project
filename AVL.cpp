@@ -46,7 +46,7 @@ NodeAVL* LeftR(NodeAVL* x) {
 }
 
 NodeAVL* insert(NodeAVL* node, int key) {
-    // Step 1: Perform normal BST insert
+    //inserare standard din BST
     if (!node) return new NodeAVL(key);
 
     if (key < node->key)
